@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Competition dataset - keep local and never upload
+data/
+
+# Trained models and checkpoints
+models/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.keras
+*.h5
+
+# macOS metadata
+.DS_Store
+
+# Temporary outputs
+outputs/checkpoints/
